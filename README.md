@@ -5,7 +5,10 @@ npm i
 npm t
 npm start
 npm run build
+npm run serve
+fish bin/gh-pages.fish
 ```
+[simple intro](https://www.youtube.com/watch?v=owDmPTSJkrg)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.

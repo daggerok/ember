@@ -45,8 +45,9 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   } else if (environment === 'ghpages') {
+    // gh-pages:
     ENV.rootURL = '/ember/';
-    ENV.baseURL = '/ember/';
+    // ENV.baseURL = '/ember/';
   }
 
   return ENV;
